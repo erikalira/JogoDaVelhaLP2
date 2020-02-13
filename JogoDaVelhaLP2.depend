@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1581633820 source:c:\users\erika\github\jogodavelhalp2\main.cpp
+	<iostream>
+	<vector>
+	"Board.h"
+
+1581634484 source:c:\users\erika\github\jogodavelhalp2\board.cpp
+	"Board.h"
+
+1581633859 c:\users\erika\github\jogodavelhalp2\board.h
+	<vector>
+	<iostream>
+
