@@ -2,6 +2,7 @@
 #define BOARD_H
 #include <vector>
 #include<iostream>
+#include "Keyboard.h"
 
 using namespace std;
 
@@ -11,7 +12,7 @@ class Board
         Board();
         ~Board();
         void Draw();
-        //void mark();
+        void mark();
         //int getWinner();
     protected:
 
@@ -20,7 +21,8 @@ class Board
                                         { 0, 0, 0 },
                                         { 0, 0, 0 }
                                     };
-
+    int markX = 1;
+    int markY = 1;
 };
 
 #endif // BOARD_H

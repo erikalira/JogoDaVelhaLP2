@@ -1,13 +1,20 @@
 # depslib dependency file v1.0
-1581633820 source:c:\users\erika\github\jogodavelhalp2\main.cpp
+1581643106 source:c:\users\erika\github\jogodavelhalp2\main.cpp
 	<iostream>
 	<vector>
 	"Board.h"
 
-1581634484 source:c:\users\erika\github\jogodavelhalp2\board.cpp
+1581646383 source:c:\users\erika\github\jogodavelhalp2\board.cpp
 	"Board.h"
 
-1581633859 c:\users\erika\github\jogodavelhalp2\board.h
+1581645823 c:\users\erika\github\jogodavelhalp2\board.h
 	<vector>
 	<iostream>
+	"Keyboard.h"
+
+1581640450 source:c:\users\erika\github\jogodavelhalp2\keyboard.cpp
+	"Keyboard.h"
+
+1581645955 c:\users\erika\github\jogodavelhalp2\keyboard.h
+	<conio.h>
 

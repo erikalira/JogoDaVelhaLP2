@@ -8,7 +8,11 @@ int main()
 {
     Board *b = new Board();
 
-    b->Draw();
+    while(1){
+        b->Draw();
+        b->mark();
+        system("cls");
+    }
 
     return 0;
 }
