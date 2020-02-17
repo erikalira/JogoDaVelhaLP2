@@ -4,7 +4,7 @@
 	<vector>
 	"Board.h"
 
-1581646383 source:c:\users\erika\github\jogodavelhalp2\board.cpp
+1581649286 source:c:\users\erika\github\jogodavelhalp2\board.cpp
 	"Board.h"
 
 1581645823 c:\users\erika\github\jogodavelhalp2\board.h
@@ -17,4 +17,21 @@
 
 1581645955 c:\users\erika\github\jogodavelhalp2\keyboard.h
 	<conio.h>
+
+1581901328 source:c:\users\erika\github\jogodavelhalp2\player.cpp
+	"Player.h"
+
+1581901616 c:\users\erika\github\jogodavelhalp2\player.h
+
+1581901588 source:c:\users\erika\github\jogodavelhalp2\match.cpp
+	"Match.h"
+
+1581898280 c:\users\erika\github\jogodavelhalp2\match.h
+	"Player.h"
+
+1581900175 source:c:\users\erika\github\jogodavelhalp2\singleplayer.cpp
+	"SinglePlayer.h"
+
+1581901631 c:\users\erika\github\jogodavelhalp2\singleplayer.h
+	"Player.h"
 

@@ -11,7 +11,7 @@ Board::~Board()
 }
 
 void Board::Draw(){
-    cout << "b[" <<markY << "]["<< markX<<"]" << endl;
+    //cout << "b[" <<markY << "]["<< markX<<"]" << endl;
     for(int i = 0 ; i < 3 ; ++i){
         for(int j = 0 ; j < 3 ; ++j){
             if(i == markY && j == markX){
