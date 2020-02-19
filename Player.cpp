@@ -10,12 +10,15 @@ Player::~Player()
     //dtor
 }
 
-void play(Board *b, int typePlayer){
+void Player::play(Board* b, int typePlayer){
     Keyboard *kb = new Keyboard();
-    int comando = kb->getKeyboard();
 
     bool mark = false;
     while(!mark){
+
+        b->Draw();
+        int comando = kb->getKeyboard();
+
         switch(comando){
             case Keyboard::ENTER:
                 b->mark(typePlayer);
@@ -36,6 +39,6 @@ void play(Board *b, int typePlayer){
             default:
                 break;
         }
-        b->Draw();
+        system("cls");
     }
 }

@@ -3,15 +3,12 @@
 #include "Keyboard.h"
 #include "Board.h"
 
-class Match;
-class Board;
-
 class Player
 {
     public:
         Player();
         virtual ~Player();
-        void play(Board *b, int typePlayer);
+        void play(Board* b, int typePlayer);
     protected:
         friend class Match;
 };

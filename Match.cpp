@@ -25,8 +25,7 @@ void Match::start(){
     while(1){
         p1->play(b, 1);
         system("cls");
-        p2->play(b, 1);
+        p2->play(b, 4);
         system("cls");
-
     }
 }

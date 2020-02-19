@@ -8,9 +8,6 @@ class Keyboard
         Keyboard();
         ~Keyboard();
         int getKeyboard();
-    protected:
-
-    private:
         int UNKNOWN = -1;
         const static int UP = 0;
         const static int DOWN = 1;
