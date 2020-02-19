@@ -16,9 +16,21 @@ void Board::Draw(){
         for(int j = 0 ; j < 3 ; ++j){
 
             if(i == Y && j == X){
-                cout << "["<< b[i][j] <<"]";
+                if(b[i][j] == 1){
+                    cout << "[O]";
+                }else if(b[i][j] == 4){
+                    cout << "[X]";
+                }else{
+                    cout << "[ ]";
+                }
             }else{
-                cout << " "<< b[i][j] <<" ";
+                if(b[i][j] == 1){
+                    cout << " O ";
+                }else if(b[i][j] == 4){
+                    cout << " X ";
+                }else{
+                    cout << "   ";
+                }
             }
 
             if(j<2)
