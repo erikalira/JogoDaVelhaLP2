@@ -44,3 +44,32 @@ void Board::Draw(){
 void Board::mark(int typePlayer){
     b[Y][X] = typePlayer;
 }
+
+int Board::getWinner(){
+    for(int i = 0 ; i < 3 ; ++i){
+        //testar se LINHAS sao iguais
+        if(b[i][0] + b[i][1] + b[i][2] == 3)
+            return 1;
+        if(b[i][0] + b[i][1] + b[i][2] == 12)
+            return 4;
+        //testar se COLUNAS sao iguais
+        if(b[0][i] + b[1][i] + b[2][i] == 3)
+            return 1;
+        if(b[0][i] + b[1][i] + b[2][i] == 12)
+            return 4;
+    }
+
+    //testar se DIAGONAL PRINCIPAL tem valores iguais
+    if(b[0][0] + b[1][1] + b[2][2] == 3)
+        return 1;
+    if(b[0][0] + b[1][1] + b[2][2] == 12)
+        return 4;
+
+    //testar se DIAGONAL SECUNDARIA tem valores iguais
+    if(b[0][2] + b[1][1] + b[2][0] == 3)
+        return 1;
+    if(b[0][2] + b[1][1] + b[2][0] == 12)
+        return 4;
+
+    return 0;
+}

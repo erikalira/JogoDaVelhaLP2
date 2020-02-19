@@ -24,8 +24,19 @@ void Match::start(){
 
     while(1){
         p1->play(b, 1);
+        if(b->getWinner() == 1){
+            b->Draw();
+            std::cout << std::endl << "jogador O ganhou!" << std::endl;
+            break;
+        }
         system("cls");
         p2->play(b, 4);
+        if(b->getWinner() == 4){
+            b->Draw();
+            std::cout << std::endl << "jogador X ganhou!" << std::endl;
+            break;
+        }
         system("cls");
     }
+
 }
