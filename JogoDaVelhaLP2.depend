@@ -6,26 +6,29 @@
 	"Match.h"
 	"Player.h"
 
-1582145717 source:c:\users\erika\github\jogodavelhalp2\board.cpp
+1582148324 source:c:\users\erika\github\jogodavelhalp2\board.cpp
 	"Board.h"
 
-1581645823 c:\users\erika\github\jogodavelhalp2\board.h
+1582149052 c:\users\erika\github\jogodavelhalp2\board.h
 	<vector>
 	<iostream>
 	"Keyboard.h"
+	"Player.h"
 
 1581640450 source:c:\users\erika\github\jogodavelhalp2\keyboard.cpp
 	"Keyboard.h"
 
-1581645955 c:\users\erika\github\jogodavelhalp2\keyboard.h
+1582148803 c:\users\erika\github\jogodavelhalp2\keyboard.h
 	<conio.h>
 
 1581901328 source:c:\users\erika\github\jogodavelhalp2\player.cpp
 	"Player.h"
 
-1582145620 c:\users\erika\github\jogodavelhalp2\player.h
+1582149081 c:\users\erika\github\jogodavelhalp2\player.h
+	"Keyboard.h"
+	"Board.h"
 
-1582145558 source:c:\users\erika\github\jogodavelhalp2\match.cpp
+1582147789 source:c:\users\erika\github\jogodavelhalp2\match.cpp
 	"Match.h"
 
 1582144887 c:\users\erika\github\jogodavelhalp2\match.h

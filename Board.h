@@ -3,8 +3,11 @@
 #include <vector>
 #include<iostream>
 #include "Keyboard.h"
+#include "Player.h"
 
 using namespace std;
+
+class Player;
 
 class Board
 {
@@ -12,7 +15,7 @@ class Board
         Board();
         ~Board();
         void Draw();
-        void mark();
+        void mark(int typePlayer);
         //int getWinner();
     protected:
 
@@ -21,8 +24,10 @@ class Board
                                         { 0, 0, 0 },
                                         { 0, 0, 0 }
                                     };
-    int markX = 1;
-    int markY = 1;
+
+    int X = 1;
+    int Y = 1;
+    friend class Player;
 };
 
 #endif // BOARD_H

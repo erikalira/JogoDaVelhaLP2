@@ -23,15 +23,10 @@ void Match::start(){
     Board *b = new Board();
 
     while(1){
-        //p1->play();
-        b->Draw();
-        b->mark();
+        p1->play(b, 1);
         system("cls");
-        //p2->play();
-        b->Draw();
-        b->mark();
+        p2->play(b, 1);
         system("cls");
-
 
     }
 }

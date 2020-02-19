@@ -17,7 +17,7 @@ class Keyboard
         const static int LEFT = 2;
         const static int RIGHT = 3;
         const static int ENTER = 4;
-        friend class Board;
+        friend class Player;
 };
 
 #endif // KEYBOARD_H
