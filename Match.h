@@ -1,6 +1,7 @@
 #ifndef MATCH_H
 #define MATCH_H
 #include "Player.h"
+#include "Board.h"
 
 class Match
 {
@@ -13,6 +14,8 @@ class Match
     protected:
 
     private:
+        Player *p1;
+        Player *p2;
 };
 
 #endif // MATCH_H

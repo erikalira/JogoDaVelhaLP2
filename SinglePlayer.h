@@ -1,11 +1,12 @@
 #ifndef SINGLEPLAYER_H
 #define SINGLEPLAYER_H
 #include "Player.h"
+#include "Board.h"
 
 class SinglePlayer : public Player
 {
     public:
-        SinglePlayer();
+        SinglePlayer(Board *b, int type);
         ~SinglePlayer();
     protected:
 

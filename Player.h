@@ -1,6 +1,8 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
+class Match;
+
 class Player
 {
     public:
@@ -8,8 +10,7 @@ class Player
         virtual ~Player();
         void play();
     protected:
-
-    private:
+        friend class Match;
 };
 
 #endif // PLAYER_H

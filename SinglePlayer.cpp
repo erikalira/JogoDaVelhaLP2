@@ -1,6 +1,6 @@
 #include "SinglePlayer.h"
 
-SinglePlayer::SinglePlayer()
+SinglePlayer::SinglePlayer(Board *b, int type)
 {
     //ctor
 }

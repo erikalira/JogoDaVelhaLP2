@@ -36,6 +36,12 @@
 		<Unit filename="Board.h" />
 		<Unit filename="Keyboard.cpp" />
 		<Unit filename="Keyboard.h" />
+		<Unit filename="Match.cpp" />
+		<Unit filename="Match.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="SinglePlayer.cpp" />
+		<Unit filename="SinglePlayer.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
