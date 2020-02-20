@@ -10,7 +10,6 @@ class Player
         virtual ~Player();
         void play(Board* b, int typePlayer);
     protected:
-        friend class Match;
 };
 
 #endif // PLAYER_H
