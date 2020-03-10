@@ -19,12 +19,13 @@
 1582150390 c:\users\erika\github\jogodavelhalp2\keyboard.h
 	<conio.h>
 
-1583852676 source:c:\users\erika\github\jogodavelhalp2\player.cpp
+1583857119 source:c:\users\erika\github\jogodavelhalp2\player.cpp
 	"Player.h"
 
-1582157404 c:\users\erika\github\jogodavelhalp2\player.h
+1583858143 c:\users\erika\github\jogodavelhalp2\player.h
 	"Keyboard.h"
 	"Board.h"
+	"SinglePlayer.h"
 
 1582157286 source:c:\users\erika\github\jogodavelhalp2\match.cpp
 	"Match.h"
@@ -36,7 +37,7 @@
 1582144481 source:c:\users\erika\github\jogodavelhalp2\singleplayer.cpp
 	"SinglePlayer.h"
 
-1582144464 c:\users\erika\github\jogodavelhalp2\singleplayer.h
+1583857119 c:\users\erika\github\jogodavelhalp2\singleplayer.h
 	"Player.h"
 	"Board.h"
 

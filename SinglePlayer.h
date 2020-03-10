@@ -7,6 +7,7 @@ class SinglePlayer : public Player
 {
     public:
         SinglePlayer(Board *b, int type);
+        void play(Board* b, int typePlayer);
         ~SinglePlayer();
     protected:
 

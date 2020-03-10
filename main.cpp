@@ -10,8 +10,12 @@ int main()
 {
     Match match;
 
-    Player *p1 = new Player();
-    Player *p2 = new Player();
+    SinglePlayer *p1 = new SinglePlayer();
+    SinglePlayer *p2 = new SinglePlayer();
+
+    while(1){
+        cout<< "tipo jogo"<< endl;
+    }
 
     match.addPlayer1(p1);
     match.addPlayer1(p2);
