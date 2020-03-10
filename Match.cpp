@@ -28,11 +28,13 @@ void Match::start(){
         if(b->getWinner() == 1){
             b->Draw();
             std::cout << std::endl << std::endl << "jogador O ganhou!" << std::endl;
+            system("pause");
             break;
         }
         if(contador == 9){
             b->Draw();
             std::cout << std::endl << std::endl << "empate!" << std::endl;
+            system("pause");
             break;
         }
         contador++;

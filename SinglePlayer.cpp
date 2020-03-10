@@ -1,6 +1,6 @@
 #include "SinglePlayer.h"
 
-SinglePlayer::SinglePlayer(Board *b, int type)
+SinglePlayer::SinglePlayer()
 {
     //ctor
 }
@@ -45,4 +45,8 @@ void Player::play(Board* b, int typePlayer){
         }
         system("cls");
     }
+}
+
+void Player::play(){
+
 }
