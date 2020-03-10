@@ -15,6 +15,9 @@ class Board
         int getWinner();
         int X = 1;
         int Y = 1;
+
+        static const int XIS = 1;
+        static const int BOLA = 4;
     protected:
 
     private:

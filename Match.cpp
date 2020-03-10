@@ -42,6 +42,7 @@ void Match::start(){
         if(b->getWinner() == 4){
             b->Draw();
             std::cout << std::endl << std::endl << "jogador X ganhou!" << std::endl;
+            system("pause");
             break;
         }
     }

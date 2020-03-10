@@ -9,7 +9,7 @@ class SinglePlayer : public Player
     public:
         SinglePlayer();
         void play(Board* b, int typePlayer);
-        void play();
+        //void play();
         ~SinglePlayer();
     protected:
 

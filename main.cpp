@@ -4,19 +4,19 @@
 #include "Match.h"
 #include "Player.h"
 #include "SinglePlayer.h"
+#include "SmartPlayer.h"
 
 using namespace std;
 
 int main()
 {
     Match match;
-
-    //Poligono *p;
-    //p = new Quadrado(lado);
+    Player *p1;
+    Player *p2;
     int op;
 
     while(1){
-        cout<<  "JOGO DA VELHA\n\n"<<
+        cout << "JOGO DA VELHA\n\n"<<
                 "tipo de jogo\n"<<
                 "1- PvP\n"<<
                 "2- PvE\n"<<
@@ -28,17 +28,22 @@ int main()
 
         switch (op){
             case 1:
-                    Player *p1;
                     p1 = new SinglePlayer();
-                    Player *p2;
                     p2 = new SinglePlayer();
+
                     match.addPlayer1(p1);
                     match.addPlayer1(p2);
 
                     match.start();
                 break;
-
             case 2:
+                    p1 = new SmartPlayer();
+                    p2 = new SmartPlayer();
+
+                    match.addPlayer1(p1);
+                    match.addPlayer1(p2);
+
+                    match.start();
                 break;
 
             case 3:
@@ -47,8 +52,6 @@ int main()
 
         system("cls");
     }
-
-
 
     return 0;
 }

@@ -42,6 +42,8 @@
 		<Unit filename="Player.h" />
 		<Unit filename="SinglePlayer.cpp" />
 		<Unit filename="SinglePlayer.h" />
+		<Unit filename="SmartPlayer.cpp" />
+		<Unit filename="SmartPlayer.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

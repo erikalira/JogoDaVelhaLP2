@@ -9,7 +9,7 @@ class Player
 //        Player();
         //virtual ~Player();
         void play(Board* b, int typePlayer);
-        void play();
+        //void play();
     protected:
 };
 

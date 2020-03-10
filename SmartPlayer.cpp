@@ -1,17 +1,17 @@
-#include "SinglePlayer.h"
+#include "SmartPlayer.h"
 
-SinglePlayer::SinglePlayer()
+SmartPlayer::SmartPlayer()
 {
     //ctor
 }
 
-SinglePlayer::~SinglePlayer()
+SmartPlayer::~SmartPlayer()
 {
     //dtor
 }
 
 
-void Player::play(Board* b, int typePlayer){
+void SmartPlayer::play(Board* b, int typePlayer){
     Keyboard *kb = new Keyboard();
 
     bool mark = false;

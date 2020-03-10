@@ -1,16 +1,17 @@
 # depslib dependency file v1.0
-1583862982 source:c:\users\erika\github\jogodavelhalp2\main.cpp
+1583866145 source:c:\users\erika\github\jogodavelhalp2\main.cpp
 	<iostream>
 	<vector>
 	"Board.h"
 	"Match.h"
 	"Player.h"
 	"SinglePlayer.h"
+	"SmartPlayer.h"
 
-1583852707 source:c:\users\erika\github\jogodavelhalp2\board.cpp
+1583864819 source:c:\users\erika\github\jogodavelhalp2\board.cpp
 	"Board.h"
 
-1583852571 c:\users\erika\github\jogodavelhalp2\board.h
+1583864788 c:\users\erika\github\jogodavelhalp2\board.h
 	<vector>
 	<iostream>
 
@@ -23,22 +24,28 @@
 1583861507 source:c:\users\erika\github\jogodavelhalp2\player.cpp
 	"Player.h"
 
-1583862271 c:\users\erika\github\jogodavelhalp2\player.h
+1583865067 c:\users\erika\github\jogodavelhalp2\player.h
 	"Keyboard.h"
 	"Board.h"
 
-1583863093 source:c:\users\erika\github\jogodavelhalp2\match.cpp
+1583865169 source:c:\users\erika\github\jogodavelhalp2\match.cpp
 	"Match.h"
 
 1582150960 c:\users\erika\github\jogodavelhalp2\match.h
 	"Board.h"
 	"Player.h"
 
-1583862090 source:c:\users\erika\github\jogodavelhalp2\singleplayer.cpp
+1583865956 source:c:\users\erika\github\jogodavelhalp2\singleplayer.cpp
 	"SinglePlayer.h"
 
-1583862067 c:\users\erika\github\jogodavelhalp2\singleplayer.h
+1583865103 c:\users\erika\github\jogodavelhalp2\singleplayer.h
 	"Player.h"
 	"Keyboard.h"
 	"Board.h"
+
+1583865988 source:c:\users\erika\github\jogodavelhalp2\smartplayer.cpp
+	"SmartPlayer.h"
+
+1583865978 c:\users\erika\github\jogodavelhalp2\smartplayer.h
+	"Player.h"
 

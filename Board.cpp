@@ -16,9 +16,9 @@ void Board::Draw(){
         for(int j = 0 ; j < 3 ; ++j){
 
             if(i == Y && j == X){
-                if(b[i][j] == 1){
+                if(b[i][j] == XIS){
                     cout << "[O]";
-                }else if(b[i][j] == 4){
+                }else if(b[i][j] == BOLA){
                     cout << "[X]";
                 }else{
                     cout << "[ ]";
