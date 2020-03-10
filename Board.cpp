@@ -41,8 +41,12 @@ void Board::Draw(){
     }
 }
 
-void Board::mark(int typePlayer){
-    b[Y][X] = typePlayer;
+bool Board::mark(int typePlayer){
+    if(b[Y][X] == 0){
+        b[Y][X] = typePlayer;
+        return true;
+    }
+    return false;
 }
 
 int Board::getWinner(){

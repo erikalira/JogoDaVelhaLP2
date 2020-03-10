@@ -21,20 +21,23 @@ void Player::play(Board* b, int typePlayer){
 
         switch(comando){
             case Keyboard::ENTER:
-                b->mark(typePlayer);
-                mark = true;
+                mark = b->mark(typePlayer);
                 break;
             case Keyboard::LEFT:
-                b->X--;
+                if(b->X >0)
+                    b->X--;
                 break;
             case Keyboard::UP:
-                b->Y--;
+                if(b->Y >0)
+                    b->Y--;
                 break;
             case Keyboard::RIGHT:
-                b->X++;
+                if(b->X <2)
+                    b->X++;
                 break;
             case Keyboard::DOWN:
-                b->Y++;
+                if(b->Y <2)
+                    b->Y++;
                 break;
             default:
                 break;

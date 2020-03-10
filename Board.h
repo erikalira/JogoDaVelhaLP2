@@ -11,7 +11,7 @@ class Board
         Board();
         ~Board();
         void Draw();
-        void mark(int typePlayer);
+        bool mark(int typePlayer);
         int getWinner();
         int X = 1;
         int Y = 1;
