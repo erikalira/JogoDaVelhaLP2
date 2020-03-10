@@ -16,7 +16,6 @@ void SmartPlayer::play(Board* b, int typePlayer){
 
     bool mark = false;
     while(!mark){
-
         b->Draw();
         int comando = kb->getKeyboard();
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1583866145 source:c:\users\erika\github\jogodavelhalp2\main.cpp
+1583867903 source:c:\users\erika\github\jogodavelhalp2\main.cpp
 	<iostream>
 	<vector>
 	"Board.h"
@@ -11,7 +11,7 @@
 1583864819 source:c:\users\erika\github\jogodavelhalp2\board.cpp
 	"Board.h"
 
-1583864788 c:\users\erika\github\jogodavelhalp2\board.h
+1583867248 c:\users\erika\github\jogodavelhalp2\board.h
 	<vector>
 	<iostream>
 
@@ -28,7 +28,7 @@
 	"Keyboard.h"
 	"Board.h"
 
-1583865169 source:c:\users\erika\github\jogodavelhalp2\match.cpp
+1583868623 source:c:\users\erika\github\jogodavelhalp2\match.cpp
 	"Match.h"
 
 1582150960 c:\users\erika\github\jogodavelhalp2\match.h
@@ -43,9 +43,16 @@
 	"Keyboard.h"
 	"Board.h"
 
-1583865988 source:c:\users\erika\github\jogodavelhalp2\smartplayer.cpp
+1583867720 source:c:\users\erika\github\jogodavelhalp2\smartplayer.cpp
 	"SmartPlayer.h"
 
-1583865978 c:\users\erika\github\jogodavelhalp2\smartplayer.h
+1583867802 c:\users\erika\github\jogodavelhalp2\smartplayer.h
+	"GameRuleAgent.h"
 	"Player.h"
+
+1583868536 source:c:\users\erika\github\jogodavelhalp2\gameruleagent.cpp
+	"GameRuleAgent.h"
+
+1583868518 c:\users\erika\github\jogodavelhalp2\gameruleagent.h
+	"Board.h"
 

@@ -27,7 +27,7 @@ class Board
                                     };
 
 
-    friend class Player;
+    //friend class Player;
 };
 
 #endif // BOARD_H

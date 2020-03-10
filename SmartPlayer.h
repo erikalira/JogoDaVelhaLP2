@@ -1,6 +1,6 @@
 #ifndef SMARTPLAYER_H
 #define SMARTPLAYER_H
-
+#include "GameRuleAgent.h"
 #include "Player.h"
 
 

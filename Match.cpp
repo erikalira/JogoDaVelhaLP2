@@ -19,13 +19,14 @@ void Match::addPlayer2(Player *p){
 }
 
 void Match::start(){
-
     Board *b = new Board();
     int contador = 0;
+
+    system("cls");
     while(1){
         contador++;
-        p1->play(b, 1);
-        if(b->getWinner() == 1){
+        p1->play(b, b->XIS);
+        if(b->getWinner() == b->XIS){
             b->Draw();
             std::cout << std::endl << std::endl << "jogador O ganhou!" << std::endl;
             system("pause");
@@ -38,13 +39,12 @@ void Match::start(){
             break;
         }
         contador++;
-        p2->play(b, 4);
-        if(b->getWinner() == 4){
+        p2->play(b, b->BOLA);
+        if(b->getWinner() == b->BOLA){
             b->Draw();
             std::cout << std::endl << std::endl << "jogador X ganhou!" << std::endl;
             system("pause");
             break;
         }
     }
-
 }

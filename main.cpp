@@ -37,7 +37,7 @@ int main()
                     match.start();
                 break;
             case 2:
-                    p1 = new SmartPlayer();
+                    p1 = new SinglePlayer();
                     p2 = new SmartPlayer();
 
                     match.addPlayer1(p1);
