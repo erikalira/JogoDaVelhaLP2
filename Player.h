@@ -6,10 +6,7 @@
 class Player
 {
     public:
-//        Player();
-        //virtual ~Player();
-        void play(Board* b, int typePlayer);
-        //void play();
+        virtual void play(Board* b, int typePlayer) = 0;
     protected:
 };
 

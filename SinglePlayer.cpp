@@ -10,10 +10,8 @@ SinglePlayer::~SinglePlayer()
     //dtor
 }
 
-
-void Player::play(Board* b, int typePlayer){
+void SinglePlayer::play(Board* b, int typePlayer){
     Keyboard *kb = new Keyboard();
-
     bool mark = false;
     while(!mark){
 
@@ -23,6 +21,8 @@ void Player::play(Board* b, int typePlayer){
         switch(comando){
             case Keyboard::ENTER:
                 mark = b->mark(typePlayer);
+                b->Draw();
+                system("pause");
                 break;
             case Keyboard::LEFT:
                 if(b->X >0)

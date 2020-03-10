@@ -16,8 +16,8 @@ class Board
         int X = 1;
         int Y = 1;
 
-        static const int XIS = 1;
-        static const int BOLA = 4;
+        static const int XIS = 4;
+        static const int BOLA = 1;
     protected:
 
     private:

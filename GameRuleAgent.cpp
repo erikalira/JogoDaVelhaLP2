@@ -10,7 +10,7 @@ GameRuleAgent::~GameRuleAgent()
     //dtor
 }
 
-int GameRuleAgent::getNextMove(Board *b){
+std::pair<int, int> GameRuleAgent::getNextMove(Board *b){
 
-    return 0;
+    return std::make_pair(0, 0);
 }

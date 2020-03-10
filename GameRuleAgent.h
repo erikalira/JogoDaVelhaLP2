@@ -7,7 +7,7 @@ class GameRuleAgent
     public:
         GameRuleAgent();
         virtual ~GameRuleAgent();
-        int getNextMove(Board *b);
+        std::pair<int, int> getNextMove(Board *b);
     protected:
 
     private:
