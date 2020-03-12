@@ -25,8 +25,8 @@ void Match::start(){
     system("cls");
     while(1){
         contador++;
-        p1->play(b, b->XIS);
-        if(b->getWinner() == b->XIS){
+        p1->play(b, b->BOLA);
+        if(b->getWinner() == b->BOLA){
             b->Draw();
             std::cout << std::endl << std::endl << "jogador O ganhou!" << std::endl;
             system("pause");
@@ -39,8 +39,8 @@ void Match::start(){
             break;
         }
         contador++;
-        p2->play(b, b->BOLA);
-        if(b->getWinner() == b->BOLA){
+        p2->play(b, b->XIS);
+        if(b->getWinner() == b->XIS){
             b->Draw();
             std::cout << std::endl << std::endl << "jogador X ganhou!" << std::endl;
             system("pause");

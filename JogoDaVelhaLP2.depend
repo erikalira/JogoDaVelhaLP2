@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1583867903 source:c:\users\erika\github\jogodavelhalp2\main.cpp
+1584039396 source:c:\users\erika\github\jogodavelhalp2\main.cpp
 	<iostream>
 	<vector>
 	"Board.h"
@@ -28,14 +28,14 @@
 	"Keyboard.h"
 	"Board.h"
 
-1583875422 source:c:\users\erika\github\jogodavelhalp2\match.cpp
+1584039252 source:c:\users\erika\github\jogodavelhalp2\match.cpp
 	"Match.h"
 
 1582150960 c:\users\erika\github\jogodavelhalp2\match.h
 	"Board.h"
 	"Player.h"
 
-1583876616 source:c:\users\erika\github\jogodavelhalp2\singleplayer.cpp
+1584039176 source:c:\users\erika\github\jogodavelhalp2\singleplayer.cpp
 	"SinglePlayer.h"
 
 1583873174 c:\users\erika\github\jogodavelhalp2\singleplayer.h

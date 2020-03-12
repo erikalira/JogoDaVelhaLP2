@@ -21,8 +21,6 @@ void SinglePlayer::play(Board* b, int typePlayer){
         switch(comando){
             case Keyboard::ENTER:
                 mark = b->mark(typePlayer);
-                b->Draw();
-                system("pause");
                 break;
             case Keyboard::LEFT:
                 if(b->X >0)
