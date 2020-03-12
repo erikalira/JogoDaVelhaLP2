@@ -12,19 +12,17 @@ SmartPlayer::~SmartPlayer()
 
 
 void SmartPlayer::play(Board* b, int typePlayer){
-    //GameRuleAgent *gra = new GameRuleAgent();
-    std::cout << "smart player" << endl;
+    GameRuleAgent *gra = new GameRuleAgent();
     bool mark = false;
     while(!mark){
         b->Draw();
-        //pair<int, int> p = gra->getNextMove(b);
+        pair<int, int> p = gra->getNextMove(b);
 
-        //b->X = p.first;
-        b->X = 1;
-        //b->Y = p.second;
-        b->Y = 1;
+        b->X = p.first;
+        b->Y = p.second;
         mark = b->mark(typePlayer);
 
+        //system("pause");
         system("cls");
     }
 }

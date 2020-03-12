@@ -15,7 +15,6 @@ class Board
         int getWinner();
         int X = 1;
         int Y = 1;
-
         static const int XIS = 4;
         static const int BOLA = 1;
     protected:
@@ -25,9 +24,7 @@ class Board
                                         { 0, 0, 0 },
                                         { 0, 0, 0 }
                                     };
-
-
-    //friend class Player;
+        friend class GameRuleAgent;
 };
 
 #endif // BOARD_H

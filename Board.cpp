@@ -65,15 +65,15 @@ int Board::getWinner(){
 
     //testar se DIAGONAL PRINCIPAL tem valores iguais
     if(b[0][0] + b[1][1] + b[2][2] == 3)
-        return 1;
+        return BOLA;
     if(b[0][0] + b[1][1] + b[2][2] == 12)
-        return 4;
+        return XIS;
 
     //testar se DIAGONAL SECUNDARIA tem valores iguais
     if(b[0][2] + b[1][1] + b[2][0] == 3)
-        return 1;
+        return BOLA;
     if(b[0][2] + b[1][1] + b[2][0] == 12)
-        return 4;
+        return XIS;
 
     return 0;
 }

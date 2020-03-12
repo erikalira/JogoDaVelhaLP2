@@ -8,10 +8,10 @@
 	"SinglePlayer.h"
 	"SmartPlayer.h"
 
-1583875911 source:c:\users\erika\github\jogodavelhalp2\board.cpp
+1584042459 source:c:\users\erika\github\jogodavelhalp2\board.cpp
 	"Board.h"
 
-1583876232 c:\users\erika\github\jogodavelhalp2\board.h
+1584045300 c:\users\erika\github\jogodavelhalp2\board.h
 	<vector>
 	<iostream>
 
@@ -43,14 +43,14 @@
 	"Keyboard.h"
 	"Board.h"
 
-1583873700 source:c:\users\erika\github\jogodavelhalp2\smartplayer.cpp
+1584041602 source:c:\users\erika\github\jogodavelhalp2\smartplayer.cpp
 	"SmartPlayer.h"
 
 1583867802 c:\users\erika\github\jogodavelhalp2\smartplayer.h
 	"GameRuleAgent.h"
 	"Player.h"
 
-1583870096 source:c:\users\erika\github\jogodavelhalp2\gameruleagent.cpp
+1584044943 source:c:\users\erika\github\jogodavelhalp2\gameruleagent.cpp
 	"GameRuleAgent.h"
 
 1583870074 c:\users\erika\github\jogodavelhalp2\gameruleagent.h
