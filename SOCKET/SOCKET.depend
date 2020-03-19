@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1554824030 source:c:\users\erika\github\jogodavelhalp2\socket\inetaddress.cpp
+	"InetAddress.h"
+	<ws2tcpip.h>
+	<iostream>
+
+1584655903 c:\users\erika\github\jogodavelhalp2\socket\inetaddress.h
+	<string>
+	<winsock2.h>
+	"UnknownHostException.h"
+
+1554824108 c:\users\erika\github\jogodavelhalp2\socket\unknownhostexception.h
+	<exception>
+
+1584660203 source:c:\users\erika\github\jogodavelhalp2\socket\main.cpp
+	<cstdlib>
+	<iostream>
+	"InetAddress.h"
+
